@@ -3,9 +3,7 @@ MIMBLEWIMBLE
 Tom Elvis Jedusor
 19 July, 2016
 
-\****/
-Introduction
-/****\
+## Introduction
 
 Bitcoin is the first widely used financial system for which all the necessary
 data to validate the system status can be cryptographically verified by anyone.
@@ -70,10 +68,7 @@ Here is what I propose.
 I call my creation Mimblewimble because it is used to prevent the blockchain from
 talking about all user's information [7].
 
-
-\****/
-Confidential Transactions and OWAS
-/****\
+## Confidential Transactions and OWAS
 
 The first thing we need to do is remove Bitcoin Script. This is sad, but it is too
 powerful so it is impossible to merge transactions using general scripts. We will
@@ -157,10 +152,8 @@ in a transaction that could easily change. Therefore, it should be banned to hav
 two unspent outputs are equal at the same time, to avoid confusion.
 
 
+## Merging Transactions Across Blocks
 
-\****/
-Merging Transactions Across Blocks
-/****\
 
 Now, we have used Dr. Maxwell's Confidential Transactions to create a noninteractive
 version of Dr. Maxwell's CoinJoin, but we have not seen the last of marvelous Dr. Maxwell! 
@@ -204,9 +197,9 @@ The block headers and explicit amounts are negligible. Add this together and get
 30Gb -- with a confidential transaction and obscured transaction graph!
 
 
-\****/
-Questions and Intuition
-/****\
+
+## Questions and Intuition
+
 
 Here are some questions that since these weeks, dreams asked me and I woke up sweating.
 But in fact it is OK.
@@ -232,9 +225,8 @@ But in fact it is OK.
 
 
 
-\****/
-Future Research
-/****\
+## Future Research
+
 
 Here are some questions I can not answer at the time of this writing.
 
